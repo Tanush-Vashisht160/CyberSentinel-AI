@@ -1,0 +1,7 @@
+[server]
+port = 8501
+headless = true
+liveReload = true
+
+# This is the magic line that completely stops it from shifting to 8502, 8503, etc.
+allowPortInUse = false
